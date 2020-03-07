@@ -14,8 +14,21 @@
 
    `git config user.email "email"`
 
-4. 创建README.md
+4. 创建README.md，编辑相关内容
 
    `vim README.md`
 
-5. 同步到github
+5. 登录github，创建对应新的repositories
+
+6. 关联到对应的repositories
+
+   `git remote add origin 仓库地址` 
+
+7. 添加新增文件，提交到head，推送到远程仓库
+
+   `git add ./*`
+
+   `git commit -m '提交信息'`
+
+   `git push origin master`
+
